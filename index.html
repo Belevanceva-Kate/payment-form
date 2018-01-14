@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<title>Beetroot</title>
+	<link rel="shortcut icon" href="favicon.png">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrap">
+		<header class="header">
+			<div class="price" data-currency="$">88</div>
+			<h1 class="title">Harold Finch</h1>
+			<span class="subtitle">Your Total</span>
+		</header>
+		<form action="" class="form">
+			<fieldset class="form__group">
+				<label for="number" class="form__label">Credit card number</label>
+				<input type="text" name="number" id="number" class="form__field" placeholder="XXXX XXXX XXXX XXXX">
+			</fieldset>
+			<fieldset class="form__group">
+				<label for="month" class="form__label">Expiration date</label>
+				<div class="form__row">
+					<select name="month" id="month" class="form__field form__field--md form__field--select">
+						<option value="">Month</option>
+						<option value="0">January</option>
+						<option value="1">February</option>
+					</select>
+					<select name="year" id="year" class="form__field form__field--sm form__field--select">
+						<option value="">Year</option>
+						<option value="2017">2017</option>
+						<option value="2018">2018</option>
+					</select>
+				</div>
+			</fieldset>
+			<fieldset class="form__group">
+				<label for="cvv" class="form__label">CVV</label>
+				<div class="form__row">
+					<input type="password" name="cvv" id="cvv" class="form__field form__field--sm">
+					<span class="form__info">3 or 4 digits - <a href="" class="form__link">view example</a></span>
+				</div>
+			</fieldset>
+			<fieldset class="form__group form__group--border">
+				<button class="form__submit">Pay</button>
+				<a href="#" class="form__link">Cancel order</a>
+			</fieldset>
+		</form>
+	</div>
+</body>
+</html>
